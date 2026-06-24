@@ -11,7 +11,8 @@ const resultEl = document.getElementById('result');
 const expressionEl = document.getElementById('expression');
 
 function fmt(n) {
-    const s = parseFloat(n.toPrecision(12)).toString();
+    let s;
+    s = parseFloat(n.toPrecision(12)).toString();
     return s;
 }
 
